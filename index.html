@@ -2,20 +2,7 @@
 <html>
     <head>
         <title>com.PhoneGap.c2dm</title>
-    </head>
-    <body>
-
-/*
-NOTE:
-    This demo uses these plugins:
-        Cordova Device Plugin: http://plugins.cordova.io/#/package/org.apache.cordova.device
-        Cordova Media Plugin: http://plugins.cordova.io/#/package/org.apache.cordova.media
-
-    To add them via the CLI:
-        $ cordova plugin add org.apache.cordova.device
-        $ cordova plugin add org.apache.cordova.media
-*/       
-        <!--<script type="text/javascript" charset="utf-8" src="cordova-2.2.0.js"></script>-->
+         <!--<script type="text/javascript" charset="utf-8" src="cordova-2.2.0.js"></script>-->
         <script type="text/javascript" charset="utf-8" src="phonegap.js"></script>
         <script type="text/javascript" charset="utf-8" src="jquery_1.5.2.min.js"></script>
         <script type="text/javascript" src="PushNotification.js"></script>
@@ -155,6 +142,9 @@ NOTE:
 			document.addEventListener('deviceready', onDeviceReady, true);
 
          </script>
+    </head>
+    <body onload="onDeviceReady();">
+       
 		<div id="home">
 			<div id="app-status-div">
 				<ul id="app-status-ul">
