@@ -59,4 +59,7 @@
     <plugin name="PushPlugin" value="com.plugin.gcm.PushPlugin" />
 </plugins>
 </cordova>
+<feature name="PushPlugin">
+  <param name="android-package" value="com.plugin.gcm.PushPlugin" />
+</feature>
 
